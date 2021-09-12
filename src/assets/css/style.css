@@ -10,7 +10,7 @@ body {
 }
 .center {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1100px;
 }
 .content {
   background-color: #29313d;
@@ -28,8 +28,7 @@ body {
 .separate {
   border: 10px solid #222831;
   opacity: 1 !important;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+
 }
 
 .div-img {
@@ -113,6 +112,7 @@ a:hover {
 
 .form-label {
   margin-bottom: 0rem;
+  font-weight: bold;
 }
 
 .form-control-color
@@ -142,4 +142,20 @@ a:hover {
 .show-btn:hover
 {
   background-color: #8a3636;
+}
+
+small {
+  color: yellow;
+}
+
+.mahmoud
+{
+  color: #f05454;
+  font-weight: bold;
+}
+
+.mahmoud:hover
+{
+  color: #e98787;
+ 
 }

@@ -2,6 +2,9 @@
   <div>
     <div class="center">
       <div class="content ">
+        <div class="text-align-webkit-center pt-2">
+          <img src="@/assets/mahmoud.png" alt="">
+        </div>
         <div class="padding pt-5">
           <div class="text-align-webkit-center">
             <a :href="imgURL" target="_blank">
@@ -27,8 +30,8 @@
           </div>
         </div><hr class="separate" />
         <div class="padding text-align-webkit-center">
-          <div class="div-form pt-4 pb-4">
-            <form class="row g-3 text-start">
+          <div class="div-form  pb-5">
+            <div class="row g-3 text-start">
               <div class="col-sm-6">
                 <label for="width" class="form-label">Width</label>
                 <input type="number" class="form-control input-style" id="width" min="0" max="8000" v-model="width"/>
@@ -78,9 +81,12 @@
                 <input type="color" class="form-control form-control-color" id="backgroundColor" value="#ffffff"  @change="bgColorFunction($event)" title="Choose your color">
                  <small class="ps-2">(HEX form without #) ?bgColor=ffffff</small>
               </div>
-            </form>
-            </div>   
+            </div>
+            </div> 
+            <hr>
+            <a class="mahmoud" href="https://mahmoud.ma/" target="_blank">www.mahmoud.ma</a>
         </div>
+        
       </div>
     </div>
   </div>
