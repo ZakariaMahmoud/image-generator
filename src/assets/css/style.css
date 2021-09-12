@@ -42,9 +42,12 @@ body {
  height: 400px;
   background-color: white;
   color : black;
+}
+.div-img:hover {
+
+ color: initial !important;
 
 }
-
 .custom-div {
 
   max-width: 780px;

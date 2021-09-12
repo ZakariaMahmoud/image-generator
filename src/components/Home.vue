@@ -3,14 +3,16 @@
     <div class="center">
       <div class="content ">
         <div class="text-align-webkit-center pt-2">
+          <a href="/">
           <img src="@/assets/mahmoud.png" alt="">
+        </a>
         </div>
         <div class="padding pt-5">
           <div class="text-align-webkit-center">
-            <a :href="imgURL" target="_blank">
-            <div class="div-img" :style="{backgroundColor: '#' + bgColor}">
+           
+            <a :href="imgURL" class="div-img" :style="{backgroundColor: '#' + bgColor}"  target="_blank">
               <p :style="{font : font,color: '#' + color}">{{text}}</p>
-            </div>
+            
             </a>
             <small class="small-text">
               This is just a virtual form, press the button [Show real image]
